@@ -1,4 +1,4 @@
-//ATIVIDADE 02
+//ATIVIDADE 03
 #include <iostream>
 #include <math.h>
 using namespace std;
