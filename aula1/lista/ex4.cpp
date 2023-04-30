@@ -5,8 +5,8 @@ using namespace std;
 int main(){
     setlocale(LC_ALL, "portuguese");
 
-    int anosFumados;
-    int cigarrosDia;
+    double anosFumados;
+    double cigarrosDia;
     double preco;
 
     cout << "Digite a quantidade de anos fumados: ";
@@ -18,7 +18,7 @@ int main(){
     cout << "Digite o preço atual da carteira de cigarro: ";
     cin >> preco;
 
-    cout << "O seu gasto com cigarro total foi: \n R$ " << ((365 * anosFumados) * cigarrosDia) * preco; 
+    cout << "O seu gasto com cigarro total foi: \n R$ " << (((365 * anosFumados) * cigarrosDia) / 20) * preco; 
 
     
     return 0;
